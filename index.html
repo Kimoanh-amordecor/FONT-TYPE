@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="vi">
+<head>
+  <meta charset="UTF-8">
+  <title>Kho Font Chữ - Xem Trước Văn Bản</title>
+  <link href="https://fonts.googleapis.com/css2?family=Roboto&family=Lobster&family=Pacifico&family=Playfair+Display&family=Anton&family=Great+Vibes&family=Oswald&family=Quicksand&family=Dancing+Script&family=Bebas+Neue&display=swap" rel="stylesheet">
+  <style>
+    body {
+      background-color: #f2f2f2;
+      font-family: Arial, sans-serif;
+      text-align: center;
+      padding: 40px;
+    }
+    h1 {
+      color: #333;
+    }
+    input {
+      padding: 10px;
+      font-size: 18px;
+      width: 80%;
+      max-width: 500px;
+      margin-bottom: 30px;
+      border: 1px solid #ccc;
+      border-radius: 5px;
+    }
+    .font-preview {
+      margin: 20px auto;
+      padding: 15px 20px;
+      max-width: 700px;
+      border-bottom: 1px solid #ddd;
+      background: #fff;
+      box-shadow: 0 1px 3px rgba(0,0,0,0.05);
+    }
+    .font-name {
+      font-size: 14px;
+      color: #999;
+      margin-bottom: 5px;
+    }
+    .text-content {
+      font-size: 32px;
+      color: #111;
+    }
+  </style>
+</head>
+<body>
+  <h1>Kho Font Chữ - Xem Trước Văn Bản</h1>
+  <input type="text" id="textInput" placeholder="Nhập nội dung để xem thử..." oninput="updatePreviews()">
+
+  <div id="previewArea">
+    <!-- Preview mẫu, sẽ tạo tự động bằng JavaScript -->
+  </div>
+
+  <script>
+    const fonts = [
+      { name: "Roboto", style: "'Roboto', sans-serif" },
+      { name: "Lobster", style: "'Lobster', cursive" },
+      { name: "Pacifico", style: "'Pacifico', cursive" },
+      { name: "Playfair Display", style: "'Playfair Display', serif" },
+      { name: "Anton", style: "'Anton', sans-se
